@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+- '10.0'
+dist: trusty
+sudo: false
+addons:
+  ssh_known_hosts:
+  - tpsie.com
+before_install:
+- openssl aes-256-cbc -K $encrypted_8aa54ab61c7e_key -iv $encrypted_8aa54ab61c7e_iv
+  -in gatsby-deploy.enc -out gatsby-deploy -d
+- eval "$(ssh-agent -s)"
+- chmod 600 /tmp/gatsby-deploy
+- ssh-add /tmp/gatsby-deploy
+- echo -e "Host tpsie.de\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+deploy:
+- provider: script
+  skip_cleanup: true
+  script: bash scripts/deploy.sh
+  on:
+    branch: master

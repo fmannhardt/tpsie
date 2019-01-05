@@ -73,7 +73,8 @@ class Index extends React.Component {
                 <li>Methods and techniques for privacy and trust management in SIE</li>
               </ul>
             </p>
-            <span className="image center"><img src={trondheim} alt="Trondheim (Old Town Bridge)" width="75%"/><figcaption>Trondheim (Old Town Bridge)</figcaption></span>
+            <span className="image center"><img src={trondheim} alt="Trondheim (Old Town Bridge)" width="75%"/>
+            <figcaption>Trondheim (Old Town Bridge) -- <a href="https://pixabay.com/photo-2074282/">Pixbay</a></figcaption></span>
           </section>
 
 

@@ -1,7 +1,5 @@
 import React from 'react'
 
-import trondheim from '../assets/images/trondheim.jpg'
-
 const Header = (props) => (
     <header id="header">
         <h1>1<sup>st</sup> Workshop on <br/> Trust and Privacy Aspects of Smart Information Environments (TPSIE)</h1>
