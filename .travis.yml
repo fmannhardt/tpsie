@@ -8,7 +8,7 @@ addons:
   - tpsie.com
 before_install:
 - openssl aes-256-cbc -K $encrypted_8aa54ab61c7e_key -iv $encrypted_8aa54ab61c7e_iv
-  -in gatsby-deploy.enc -out gatsby-deploy -d
+  -in scripts/gatsby-deploy.enc -out /tmp/gatsby-deploy -d
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/gatsby-deploy
 - ssh-add /tmp/gatsby-deploy
