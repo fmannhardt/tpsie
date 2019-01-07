@@ -81,7 +81,7 @@ class Index extends React.Component {
                 <li>Privacy and trust in SIE</li>
                 <li>System design for privacy awareness</li>
                 <li>Privacy and trust in (big) data analytics</li>
-                <li>Privacy-preserving data/process mining</li>
+                <li>Privacy-preserving data / process mining</li>
                 <li>Privacy engineering for (event) logs</li>
                 <li>Privacy and trust in machine learning</li>
                 <li>Privacy and trust in data aggregation</li>
@@ -176,6 +176,7 @@ class Index extends React.Component {
             Anne Adams, Open University<br/>
             Nathalie Baracaldo, IBM Almaden Research Center<br/>
             Andrea Burratin, Technical University of Denmark<br/>
+            Anders Kofod-Petersen, Alexandra Institute<br/>
             Renate Medeiros de Carvalho, Eindhoven University of Technology<br/>
             Mauro Conti, University of Padua<br/>
             Martin Degeling, Ruhr-Universität Bochum<br/>
