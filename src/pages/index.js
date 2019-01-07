@@ -6,15 +6,36 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 
-import trondheim from '../assets/images/trondheim.jpg'
-import trondheim2 from '../assets/images/trondheim2.jpg'
+import Img from "gatsby-image"
+import { graphql } from "gatsby"
+
+export const query = graphql`
+  query {
+    trondheim: file(relativePath: { eq: "trondheim.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 2400, quality: 80) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    trondheim2: file(relativePath: { eq: "trondheim2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 2400, quality: 80) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+  }
+`
 
 class Index extends React.Component {
-  constructor(props) {
+
+  constructor(props, data) {
     super(props);
     this.state = {
       stickyNav: false
     }
+    this.data = data
   }
 
   _handleWaypointEnter= () => {
@@ -29,7 +50,8 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="1st Workshop on Trust and Privacy Aspects of Smart Information Environments (TPSIE)" />
+        <Helmet 
+          title="1st Workshop on Trust and Privacy Aspects of Smart Information Environments (TPSIE)" />
 
         <Header />        
 
@@ -73,8 +95,10 @@ class Index extends React.Component {
                 <li>Methods and techniques for privacy and trust management in SIE</li>
               </ul>
             </p>
-            <span className="image center"><img src={trondheim} alt="Trondheim (Old Town Bridge)" width="75%"/>
-            <figcaption>Trondheim (Old Town Bridge) -- <a href="https://pixabay.com/photo-2074282/">Pixbay</a></figcaption></span>
+            <div className="image center">
+              <Img fluid={this.data.trondheim.childImageSharp.fluid} alt="Trondheim (Old Town Bridge)" />
+              <figcaption>Trondheim (Old Town Bridge) -- <a href="https://pixabay.com/photo-2074282/" target="_blank">Pixbay</a></figcaption>
+            </div>
           </section>
 
 
@@ -85,12 +109,12 @@ class Index extends React.Component {
             <p className="content">
             <h3>Important dates</h3>
             <p>
-            Paper submission deadline: 31 March 2019<br/>
+            <b>Paper submission deadline: 31 March 2019</b><br/>
             Notification of acceptance: 30 April 2019<br/>
             Early Bird Registration: 30 May 2019<br/>
             Workshop day: between 18-20 September; exact date to be announced in July 2019<br/>
             <br/> 
-            <i>Deadlines correspond to anywhere on earth ('AoE' or 'UTC-12′)</i>
+            <i>Deadlines correspond to anywhere on earth ('AoE' or 'UTC-12')</i>
             </p>
 
             <h3>Submission guidelines</h3>
@@ -102,7 +126,7 @@ class Index extends React.Component {
               
             <p>Authors should follow the Springer formatting for Lecture Notes on Computer Science as indicated here:
             <br/>
-            <a href="http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">
+            <a href="http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank">
             http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
             </a>
             </p>
@@ -110,7 +134,7 @@ class Index extends React.Component {
             <h3>Submission</h3>
             <p>Papers and abstracts should be submitted through the Easy Chair web site in PDF format:
             <br/>
-            <a href="https://easychair.org/conferences/?conf=tpsie2019">
+            <a href="https://easychair.org/conferences/?conf=tpsie2019" target="_blank">
             https://easychair.org/conferences/?conf=tpsie2019
             </a></p>
 
@@ -120,11 +144,12 @@ class Index extends React.Component {
             <p>The proceedings of the I3E 2019 workshops are planned to be published as a book with the main conference proceedings by Springer-Verlag in its Lecture Notes in Computer Science (LNCS) series.</p>
 
             <h3>Journal Special Issue</h3>
-            <p>We are planning to invite the authors of the best papers to submit an extended version of the papers for a special issue of the EMISA Journal (https://www.emisa-journal.org/emisa) focused on trust and privacy in combination with conceptual modeling. Further details are to be published soon.</p>
+            <p>We are planning to invite the authors of the best papers to submit an extended version of the papers for a special issue of the EMISA Journal (<a href="https://www.emisa-journal.org/emisa" target="_blank">https://www.emisa-journal.org/emisa</a>) focused on trust and privacy in combination with conceptual modeling. Further details are to be published soon.</p>
             </p>     
-            <span className="image center"><img src={trondheim2} alt="Trondheim (Nidaros Cathedral)" width="75%"/>
-              <figcaption>Trondheim (Nidaros Cathedral) -- By Edgar El, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=52934798">Link</a></figcaption>
-            </span>       
+            <div className="image center">
+            <Img fluid={this.data.trondheim2.childImageSharp.fluid} alt="Trondheim (Nidaros Cathedral)" />
+              <figcaption>Trondheim (Nidaros Cathedral) -- By Edgar El, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0" target="_blank">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=52934798" target="_blank">Link</a></figcaption>
+            </div>       
           </section>
 
           <section id="program" className="main">
@@ -136,31 +161,31 @@ class Index extends React.Component {
 
           <section id="organisers" className="main">
             <header className="major">
-              <h2>Organisers</h2>
-              </header>
-<h3>Organisation committee</h3>
-<p>
-<a href="https://www.sintef.no/alle-ansatte/ansatt/?empId=5958">Felix Mannhardt</a>, SINTEF<br/>
-<a href="https://www.ntnu.edu/employees/sobah.a.petersen">Sobah Abbas Petersen</a>, Norwegian University of Science and Technology<br/>
-<a href="http://www.aifb.kit.edu/web/Agnes_Koschmider">Agnes Koschmider</a>, Karlsruhe Institute of Technology<br/>
-</p>
+              <h2>Organizers</h2>
+            </header>
+            <h3>Organization committee</h3>
+            <p>
+            <a href="https://www.sintef.no/alle-ansatte/ansatt/?empId=5958" target="_blank">Felix Mannhardt</a>, SINTEF<br/>
+            <a href="https://www.ntnu.edu/employees/sobah.a.petersen" target="_blank">Sobah Abbas Petersen</a>, Norwegian University of Science and Technology<br/>
+            <a href="http://www.aifb.kit.edu/web/Agnes_Koschmider" target="_blank">Agnes Koschmider</a>, Karlsruhe Institute of Technology<br/>
+            </p>
 
-<h3>Program committee</h3>
-<p>
-Wil M. P. van der Aalst, RWTH Aachen University<br/>
-Anne Adams, Open University<br/>
-Nathalie Baracaldo, IBM Almaden Research Center<br/>
-Andrea Burratin, Technical University of Denmark<br/>
-Renate Medeiros de Carvalho, Eindhoven University of Technology<br/>
-Mauro Conti, University of Padua<br/>
-Martin Degeling, Ruhr-Universität Bochum<br/>
-Judith Michael, RWTH Aachen University<br/>
-Manuel Oliveira, SINTEF<br/>
-Ali Sunyaev, Karlsruhe Institute of Technology<br/>
-Pieter J. Toussaint, Norwegian University of Science and Technology<br/>
-Hans Torvatn, SINTEF<br/>
-Matthias Weidlich, Humboldt University of Berlin
-</p>
+            <h3>Program committee</h3>
+            <p>
+            Wil M. P. van der Aalst, RWTH Aachen University<br/>
+            Anne Adams, Open University<br/>
+            Nathalie Baracaldo, IBM Almaden Research Center<br/>
+            Andrea Burratin, Technical University of Denmark<br/>
+            Renate Medeiros de Carvalho, Eindhoven University of Technology<br/>
+            Mauro Conti, University of Padua<br/>
+            Martin Degeling, Ruhr-Universität Bochum<br/>
+            Judith Michael, RWTH Aachen University<br/>
+            Manuel Oliveira, SINTEF<br/>
+            Ali Sunyaev, Karlsruhe Institute of Technology<br/>
+            Pieter J. Toussaint, Norwegian University of Science and Technology<br/>
+            Hans Torvatn, SINTEF<br/>
+            Matthias Weidlich, Humboldt University of Berlin
+            </p>
           </section>          
 
         </div>
@@ -170,4 +195,4 @@ Matthias Weidlich, Humboldt University of Berlin
   }
 }
 
-export default Index
+export default ({ props, data }) => new Index(props, data)
