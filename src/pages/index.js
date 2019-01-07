@@ -97,7 +97,7 @@ class Index extends React.Component {
             </p>
             <div className="image center">
               <Img fluid={this.data.trondheim.childImageSharp.fluid} alt="Trondheim (Old Town Bridge)" />
-              <figcaption>Trondheim (Old Town Bridge) -- <a href="https://pixabay.com/photo-2074282/" target="_blank">Pixbay</a></figcaption>
+              <figcaption>Trondheim (Old Town Bridge) -- <a href="https://pixabay.com/photo-2074282/" target="_blank" rel="noopener noreferrer">Pixbay</a></figcaption>
             </div>
           </section>
 
@@ -126,7 +126,7 @@ class Index extends React.Component {
               
             <p>Authors should follow the Springer formatting for Lecture Notes on Computer Science as indicated here:
             <br/>
-            <a href="http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank">
+            <a href="http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank" rel="noopener noreferrer">
             http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
             </a>
             </p>
@@ -134,7 +134,7 @@ class Index extends React.Component {
             <h3>Submission</h3>
             <p>Papers and abstracts should be submitted through the Easy Chair web site in PDF format:
             <br/>
-            <a href="https://easychair.org/conferences/?conf=tpsie2019" target="_blank">
+            <a href="https://easychair.org/conferences/?conf=tpsie2019" target="_blank" rel="noopener noreferrer">
             https://easychair.org/conferences/?conf=tpsie2019
             </a></p>
 
@@ -144,11 +144,11 @@ class Index extends React.Component {
             <p>The proceedings of the I3E 2019 workshops are planned to be published as a book with the main conference proceedings by Springer-Verlag in its Lecture Notes in Computer Science (LNCS) series.</p>
 
             <h3>Journal Special Issue</h3>
-            <p>We are planning to invite the authors of the best papers to submit an extended version of the papers for a special issue of the EMISA Journal (<a href="https://www.emisa-journal.org/emisa" target="_blank">https://www.emisa-journal.org/emisa</a>) focused on trust and privacy in combination with conceptual modeling. Further details are to be published soon.</p>
+            <p>We are planning to invite the authors of the best papers to submit an extended version of the papers for a special issue of the EMISA Journal (<a href="https://www.emisa-journal.org/emisa" target="_blank" rel="noopener noreferrer">https://www.emisa-journal.org/emisa</a>) focused on trust and privacy in combination with conceptual modeling. Further details are to be published soon.</p>
             </p>     
             <div className="image center">
             <Img fluid={this.data.trondheim2.childImageSharp.fluid} alt="Trondheim (Nidaros Cathedral)" />
-              <figcaption>Trondheim (Nidaros Cathedral) -- By Edgar El, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0" target="_blank">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=52934798" target="_blank">Link</a></figcaption>
+              <figcaption>Trondheim (Nidaros Cathedral) -- By Edgar El, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=52934798" target="_blank" rel="noopener noreferrer">Link</a></figcaption>
             </div>       
           </section>
 
@@ -165,9 +165,9 @@ class Index extends React.Component {
             </header>
             <h3>Organization committee</h3>
             <p>
-            <a href="https://www.sintef.no/alle-ansatte/ansatt/?empId=5958" target="_blank">Felix Mannhardt</a>, SINTEF<br/>
-            <a href="https://www.ntnu.edu/employees/sobah.a.petersen" target="_blank">Sobah Abbas Petersen</a>, Norwegian University of Science and Technology<br/>
-            <a href="http://www.aifb.kit.edu/web/Agnes_Koschmider" target="_blank">Agnes Koschmider</a>, Karlsruhe Institute of Technology<br/>
+            <a href="https://www.sintef.no/alle-ansatte/ansatt/?empId=5958" target="_blank" rel="noopener noreferrer">Felix Mannhardt</a>, SINTEF<br/>
+            <a href="https://www.ntnu.edu/employees/sobah.a.petersen" target="_blank" rel="noopener noreferrer">Sobah Abbas Petersen</a>, Norwegian University of Science and Technology<br/>
+            <a href="http://www.aifb.kit.edu/web/Agnes_Koschmider" target="_blank" rel="noopener noreferrer">Agnes Koschmider</a>, Karlsruhe Institute of Technology<br/>
             </p>
 
             <h3>Program committee</h3>

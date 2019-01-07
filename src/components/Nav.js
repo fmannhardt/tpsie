@@ -26,7 +26,7 @@ const Nav = (props) => (
                 </Scroll>
             </li>           
             <li>
-                <a href="https://www.i3e2019.com" target="_blank">I3E Conference</a>
+                <a href="https://www.i3e2019.com" target="_blank" rel="noopener noreferrer">I3E Conference</a>
             </li>
         </Scrollspy>        
     </nav>
