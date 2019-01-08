@@ -176,6 +176,7 @@ class Index extends React.Component {
             Anne Adams, Open University<br/>
             Nathalie Baracaldo, IBM Almaden Research Center<br/>
             Andrea Burratin, Technical University of Denmark<br/>
+            Jörg Cassens, University of Hildesheim<br/>
             Anders Kofod-Petersen, Alexandra Institute<br/>
             Renate Medeiros de Carvalho, Eindhoven University of Technology<br/>
             Mauro Conti, University of Padua<br/>
