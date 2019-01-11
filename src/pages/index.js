@@ -178,7 +178,7 @@ class Index extends React.Component {
             Andrea Burratin, Technical University of Denmark<br/>
             Jörg Cassens, University of Hildesheim<br/>
             Anders Kofod-Petersen, Alexandra Institute<br/>
-            Renate Medeiros de Carvalho, Eindhoven University of Technology<br/>
+            Renata Medeiros de Carvalho, Eindhoven University of Technology<br/>
             Mauro Conti, University of Padua<br/>
             Martin Degeling, Ruhr-Universität Bochum<br/>
             Judith Michael, RWTH Aachen University<br/>
