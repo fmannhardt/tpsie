@@ -187,6 +187,7 @@ class Index extends React.Component {
             Pieter J. Toussaint, Norwegian University of Science and Technology<br/>
             Hans Torvatn, SINTEF<br/>
             Matthias Weidlich, Humboldt University of Berlin
+            Moe Wynn, Queensland University of Technology
             </p>
           </section>          
 
