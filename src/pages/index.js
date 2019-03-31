@@ -109,10 +109,10 @@ class Index extends React.Component {
             <p className="content">
             <h3>Important dates</h3>
             <p>
-            <b>Paper submission deadline: 31 March 2019</b><br/>
-            Notification of acceptance: 30 April 2019<br/>
-            Early Bird Registration: 30 May 2019<br/>
-            Workshop day: between 18-20 September; exact date to be announced in July 2019<br/>
+            <b>Paper submission deadline: 22nd April 2019 (extended)</b><br/>
+            Notification of acceptance: 15 June 2019 (extended)<br/>
+            Early Bird Registration: 15 July 2019<br/>
+            Workshop day: between 18-20 September; <br/>exact date to be announced in July 2019<br/>
             <br/> 
             <i>Deadlines correspond to anywhere on earth ('AoE' or 'UTC-12')</i>
             </p>
@@ -130,7 +130,7 @@ class Index extends React.Component {
             http://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
             </a>
             </p>
-
+            <br/><br/>
             <h3>Submission</h3>
             <p>Papers and abstracts should be submitted through the Easy Chair web site in PDF format:
             <br/>
