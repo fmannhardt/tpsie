@@ -181,11 +181,9 @@ class Index extends React.Component {
             Renata Medeiros de Carvalho, Eindhoven University of Technology<br/>
             Mauro Conti, University of Padua<br/>
             Martin Degeling, Ruhr-Universität Bochum<br/>
-            Judith Michael, RWTH Aachen University<br/>
-            Manuel Oliveira, SINTEF<br/>
+            Judith Michael, RWTH Aachen University<br/>            
             Ali Sunyaev, Karlsruhe Institute of Technology<br/>
             Pieter J. Toussaint, Norwegian University of Science and Technology<br/>
-            Hans Torvatn, SINTEF<br/>
             Matthias Weidlich, Humboldt University of Berlin<br/>
             Moe Wynn, Queensland University of Technology
             </p>
