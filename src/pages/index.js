@@ -183,6 +183,7 @@ class Index extends React.Component {
             Martin Degeling, Ruhr-Universität Bochum<br/>
             Judith Michael, RWTH Aachen University<br/>
             Ali Sunyaev, Karlsruhe Institute of Technology<br/>
+            Manuel Oliveira, SINTEF<br/>
             Pieter J. Toussaint, Norwegian University of Science and Technology<br/>
             Hans Torvatn, SINTEF<br/>
             Matthias Weidlich, Humboldt University of Berlin<br/>
