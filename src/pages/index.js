@@ -109,10 +109,10 @@ class Index extends React.Component {
             <p className="content">
             <h3>Important dates</h3>
             <p>
-            <b>Paper submission deadline: 22nd April 2019 (extended)</b><br/>
-            Notification of acceptance: 15 June 2019 (extended)<br/>
+            <s>Paper submission deadline: 22nd April 2019 (extended)</s><br/>
+            <s>Notification of acceptance: 15 June 2019 (extended)</s><br/>
             Early Bird Registration: 15 July 2019<br/>
-            Workshop day: between 18-20 September; <br/>exact date to be announced in July 2019<br/>
+            <b>Workshop day: 18 September</b>
             <br/> 
             <i>Deadlines correspond to anywhere on earth ('AoE' or 'UTC-12')</i>
             </p>
@@ -154,9 +154,38 @@ class Index extends React.Component {
 
           <section id="program" className="main">
             <header className="major">
-              <h2>Workshop program</h2>
-              <p>To be announced.</p>
-            </header>
+              <h2>Workshop program (tentative)</h2>
+            </header>            
+            <h3>
+              Wednesday, September 18, 2019 - Radisson Blu Royal Garden Hotel
+            </h3>
+            <p>
+            <h4>10:30 - 11:15 &emsp; Invited talk / Keynote</h4>
+            <ul>
+              <li>TBA</li>
+            </ul>
+            </p>
+            <h4>11:15 - 11:30 &emsp; Coffee break</h4>
+            <h4>11:30 - 12:30 &emsp; Session 1</h4>
+            <ul>
+              <li>Urbano Reviglio.<br/><b>Towards a Right Not to Be Deceived? An Interdisciplinary Analysis on Personalization in the light of the GDPR</b></li>
+              <li>Alfredo Perez Fernandez and Guttorm Sindre.<br/><b>Software Assisted Privacy Impact Assessment in Interactive Ubiquitous Computing Systems</b></li>
+            </ul>
+            <h4>12:30 - 13:30 &emsp; Lunch</h4>
+            <ul>
+              <li>Organised by I3E</li>
+            </ul>
+            <h4>13:30 - 15:00 &emsp; Session 2</h4>
+            <ul>
+              <li>Georgios Lioudakis, Maria Koukovini, Eugenia Papagiannakopoulou, Nikolaos Dellas, Kostas Kalaboukas, Renata M. Carvalho, Marwan Hassani, Lorenzo Bracciale, Giuseppe Bianchi, Adrián Juan-Verdejo, Spiros Alexakis, Francesca Rubina Gaudino, Davide Cascone and Paolo Barracano.<br/><b>Facilitating GDPR compliance: the H2020 BPR4GDPR approach</b></li>
+              <li>Felix Mannhardt, Sobah Abbas Petersen and Manuel Oliveira.<br/><b>Designing a Privacy Dashboard for a Smart Manufacturing Environment</b></li>
+              <li>Saskia Nuñez von Voigt and Florian Tschorsch.<br/><b>RRTxFM: Probabilistic Counting for Differentially Private Statistics</b></li>
+            </ul>
+            <h4>15:00 - 15:30 &emsp; Coffee break</h4>
+            <h4>15:30 - 16:30 &emsp; Session 3</h4>
+            <ul>
+              <li>Discussion / Breakout session</li>
+            </ul>
           </section>
 
           <section id="organizers" className="main">
