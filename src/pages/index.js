@@ -177,8 +177,8 @@ class Index extends React.Component {
             </ul>
             <h4>13:30 - 15:00 &emsp; Session 2</h4>
             <ul>
-              <li>Georgios Lioudakis, Maria Koukovini, Eugenia Papagiannakopoulou, Nikolaos Dellas, Kostas Kalaboukas, Renata M. Carvalho, Marwan Hassani, Lorenzo Bracciale, Giuseppe Bianchi, Adrián Juan-Verdejo, Spiros Alexakis, Francesca Rubina Gaudino, Davide Cascone and Paolo Barracano.<br/><b>Facilitating GDPR compliance: the H2020 BPR4GDPR approach</b></li>
-              <li>Felix Mannhardt, Sobah Abbas Petersen and Manuel Oliveira.<br/><b>Designing a Privacy Dashboard for a Smart Manufacturing Environment</b></li>
+              <li>Georgios Lioudakis, Maria Koukovini, Eugenia Papagiannakopoulou, Nikolaos Dellas, Kostas Kalaboukas, Renata M. Carvalho, Marwan Hassani, Lorenzo Bracciale, Giuseppe Bianchi, Adrián Juan-Verdejo, Spiros Alexakis, Francesca Rubina Gaudino, Davide Cascone and Paolo Barracano.<br/><b>Facilitating GDPR compliance: the H2020 BPR4GDPR approach  (short paper)</b></li>
+              <li>Felix Mannhardt, Sobah Abbas Petersen and Manuel Oliveira.<br/><b>Designing a Privacy Dashboard for a Smart Manufacturing Environment (short paper)</b></li>
               <li>Saskia Nuñez von Voigt and Florian Tschorsch.<br/><b>RRTxFM: Probabilistic Counting for Differentially Private Statistics</b></li>
             </ul>
             <h4>15:00 - 15:30 &emsp; Coffee break</h4>
