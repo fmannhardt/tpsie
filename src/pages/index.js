@@ -111,7 +111,7 @@ class Index extends React.Component {
             <p>
             <s>Paper submission deadline: 22nd April 2019 (extended)</s><br/>
             <s>Notification of acceptance: 15 June 2019 (extended)</s><br/>
-            Early Bird Registration: 20 June 2019<br/>
+            <s>Early Bird Registration: 20 June 2019</s><br/>
             <b>Workshop day: 18 September</b>
             <br/> 
             <i>Deadlines correspond to anywhere on earth ('AoE' or 'UTC-12')</i>
