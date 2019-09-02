@@ -171,24 +171,28 @@ class Index extends React.Component {
               </li>
             </ul>
             </p>
-            <h4>11:15 - 11:30 &emsp; Coffee break</h4>
-            <h4>11:30 - 12:30 &emsp; Session 1</h4>
+            <h4>11:15 - 12:30 &emsp; Break</h4>
+            <h4>11:30 - 12:00 &emsp; Session 1</h4>
             <ul>
-              <li>Urbano Reviglio.<br/><b>Towards a Right Not to Be Deceived? An Interdisciplinary Analysis on Personalization in the light of the GDPR</b></li>
-              <li>Alfredo Perez Fernandez and Guttorm Sindre.<br/><b>Software Assisted Privacy Impact Assessment in Interactive Ubiquitous Computing Systems</b></li>
+              <li>Urbano Reviglio.<br/><b>Towards a Right Not to Be Deceived? An Interdisciplinary Analysis on Personalization in the light of the GDPR</b></li>              
             </ul>
-            <h4>12:30 - 13:30 &emsp; Lunch</h4>
+            <h4>12:00 - 13:00 &emsp; Lunch</h4>
             <ul>
               <li>Organised by I3E</li>
             </ul>
-            <h4>13:30 - 15:00 &emsp; Session 2</h4>
+            <h4>13:00 - 14:00 &emsp; Session 2</h4>
             <ul>
+              <li>Alfredo Perez Fernandez and Guttorm Sindre.<br/><b>Software Assisted Privacy Impact Assessment in Interactive Ubiquitous Computing Systems</b></li>
               <li>Georgios Lioudakis, Maria Koukovini, Eugenia Papagiannakopoulou, Nikolaos Dellas, Kostas Kalaboukas, Renata M. Carvalho, Marwan Hassani, Lorenzo Bracciale, Giuseppe Bianchi, Adrián Juan-Verdejo, Spiros Alexakis, Francesca Rubina Gaudino, Davide Cascone and Paolo Barracano.<br/><b>Facilitating GDPR compliance: the H2020 BPR4GDPR approach  (short paper)</b></li>
+            </ul>
+            <h4>14:00 - 14:15 &emsp; Break</h4>
+            <h4>14:15 - 15:15 &emsp; Session 3</h4>
+            <ul>
               <li>Felix Mannhardt, Sobah Abbas Petersen and Manuel Oliveira.<br/><b>Designing a Privacy Dashboard for a Smart Manufacturing Environment (short paper)</b></li>
               <li>Saskia Nuñez von Voigt and Florian Tschorsch.<br/><b>RRTxFM: Probabilistic Counting for Differentially Private Statistics</b></li>
-            </ul>
-            <h4>15:00 - 15:30 &emsp; Coffee break</h4>
-            <h4>15:30 - 16:30 &emsp; Session 3</h4>
+            </ul>            
+            <h4>15:15 - 15:30 &emsp; Break</h4>
+            <h4>15:30 - 16:30 &emsp; Session 4</h4>
             <ul>
               <li>Discussion / Breakout session</li>
             </ul>
