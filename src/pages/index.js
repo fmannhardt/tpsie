@@ -154,15 +154,21 @@ class Index extends React.Component {
 
           <section id="program" className="main">
             <header className="major">
-              <h2>Workshop program (tentative)</h2>
+              <h2>Workshop program</h2>
             </header>            
+            <p>
+             Also have a look at the <a href="https://www.i3e2019.com/program" target="_blank" rel="noopener noreferrer">main conference program</a>. 
+             There will be a main <a href="https://www.i3e2019.com/keynote-speakers" target="_blank" rel="noopener noreferrer">conference keynote</a> by Jan vom Brocke starting 9:00 before the workshop starts.
+            </p>
             <h3>
-              Wednesday, September 18, 2019 - Radisson Blu Royal Garden Hotel
+              Wednesday, September 18, 2019 - Radisson Blu Royal Garden Hotel (Room D - Kristiansten)
             </h3>
             <p>
             <h4>10:30 - 11:15 &emsp; Invited talk / Keynote</h4>
             <ul>
-              <li>TBA</li>
+              <li>Eirik Gulbrandsen (Datatilsynet)<br/>
+                Eirik Gulbrandsen is a senior engineer at The Norwegian Data Protection Authority (Datatilsynet), focusing on the technology aspects of GDPR. His background is from cybersecurity, cryptography, and systems design. Eirik is also president of the Norwegian chapter of Cloud Security Alliance, focusing on cloud and cloud security. He has worked 20+ years in the information security industry, including global companies like IBM and CA.
+              </li>
             </ul>
             </p>
             <h4>11:15 - 11:30 &emsp; Coffee break</h4>

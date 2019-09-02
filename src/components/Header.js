@@ -7,7 +7,7 @@ const Header = (props) => (
         <p>            
             <i>Organised in conjunction with the 18th IFIP Conference on e-Business, e-Services and e-Society</i><br/>
             <i><a href="https://www.i3e2019.com/">I3E 2019</a> on the 18-20 September 2019 in Trondheim, Norway</i><br/><br/>
-            <b>Workshop program announced!</b><br/>
+            <b>Invited talk announced!</b><br/>
         </p>
         <ul className="icons">
             <li><a href="https://twitter.com/search?src=typd&q=%23tpsie19" target="_blank" rel="noopener noreferrer" className="icon fa-twitter alt" title="Share on Twitter"><span className="label">Twitter</span></a></li>
