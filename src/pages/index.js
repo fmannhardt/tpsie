@@ -171,7 +171,7 @@ class Index extends React.Component {
               </li>
             </ul>
             </p>
-            <h4>11:15 - 12:30 &emsp; Break</h4>
+            <h4>11:15 - 11:30 &emsp; Break</h4>
             <h4>11:30 - 12:00 &emsp; Session 1</h4>
             <ul>
               <li>Urbano Reviglio.<br/><b>Towards a Right Not to Be Deceived? An Interdisciplinary Analysis on Personalization in the light of the GDPR</b></li>              
