@@ -161,7 +161,7 @@ class Index extends React.Component {
              There will be a main <a href="https://www.i3e2019.com/keynote-speakers" target="_blank" rel="noopener noreferrer">conference keynote</a> by Jan vom Brocke starting 9:00 before the workshop starts.
             </p>
             <h3>
-              Wednesday, September 18, 2019 - Radisson Blu Royal Garden Hotel (Room D - Kristiansten)
+              Wednesday, September 18, 2019 - Radisson Blu Royal Garden Hotel (Room D - Austråt)
             </h3>
             <p>
             <h4>10:30 - 11:15 &emsp; Invited talk / Keynote</h4>
