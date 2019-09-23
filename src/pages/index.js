@@ -112,7 +112,7 @@ class Index extends React.Component {
             <s>Paper submission deadline: 22nd April 2019 (extended)</s><br/>
             <s>Notification of acceptance: 15 June 2019 (extended)</s><br/>
             <s>Early Bird Registration: 20 June 2019</s><br/>
-            <b>Workshop day: 18 September</b>
+            <s>Workshop day: 18 September</s>
             <br/> 
             <i>Deadlines correspond to anywhere on earth ('AoE' or 'UTC-12')</i>
             </p>
@@ -144,7 +144,7 @@ class Index extends React.Component {
             <p>The proceedings of the I3E 2019 workshops are planned to be published as a book with the main conference proceedings by Springer-Verlag in its Lecture Notes in Computer Science (LNCS) series.</p>
 
             <h3>Journal Special Issue</h3>
-            <p>We are planning to invite the authors of the best papers to submit an extended version of the papers for a special issue of the EMISA Journal (<a href="https://www.emisa-journal.org/emisa" target="_blank" rel="noopener noreferrer">https://www.emisa-journal.org/emisa</a>) focused on trust and privacy in combination with conceptual modeling. Further details are to be published soon.</p>
+            <p>The best paper were invited to a fas-track of the <i>Towards Privacy Preservation and Data Protection in Information System Design</i> special issue of the EMISA Journal (<a href="https://www.emisa-journal.org/emisa" target="_blank" rel="noopener noreferrer">https://www.emisa-journal.org/emisa</a>).</p>
             </p>     
             <div className="image center">
             <Img fluid={this.data.trondheim2.childImageSharp.fluid} alt="Trondheim (Nidaros Cathedral)" />
